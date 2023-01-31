@@ -9,5 +9,5 @@
           image: ami-01a4f99c4ac11b03c
           region: ap-south-1
           key_name: maven
-          aws_access_key: AKIASZJWJOYGT54NYPJA
+          aws_access_key: 
           aws_secret_key: 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
