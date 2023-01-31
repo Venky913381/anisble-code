@@ -1,0 +1,13 @@
+---
+  - name: This play for creating an ec2 Instance
+    hosts: localhost
+    connection: local
+    tasks:
+      - name: creating AWS ec2 instance using Ec2 module
+        ec2:
+          instance_type: t2.micro
+          image: ami-01a4f99c4ac11b03c
+          region: ap-south-1
+          key_name: maven
+          aws_access_key: AKIASZJWJOYGT54NYPJA
+          aws_secret_key: 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
